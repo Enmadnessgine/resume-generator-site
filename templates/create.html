@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    add resume
+{% endblock %}
+
+{% block body %}
+    <h1>create resume</h1>
+    <form method='post' class='form-control'>
+        <input type='text' name='name' placeholder='input name' class='form-control'><br>
+        <input type='text' name='surname' placeholder='input surname' class='form-control'><br>
+        <input type='text' name='work_position' placeholder='input work position' class='form-control'><br>
+        <input type='text' name='email' placeholder='input email' class='form-control'><br>
+        <input type='text' name='contact' placeholder='input contact(s)' class='form-control'><br>
+        <input type="text" name='work_exp_time' placeholder='input years experience' class='form-control'><br>
+        <input type='text' name='work_exp_desc' placeholder='input info about your work experience' class='form-control'><br>
+        <input type='text' name='hard_skills' placeholder='input info about your hard skills' class='form-control'><br>
+        <input type='text' name='education' placeholder='input info about your education' class='form-control'><br>
+        <input type='text' name='other_info' placeholder='input info about your education' class='form-control'><br>
+        <button class='btn btn-success' type='submit'>CREATE</button>
+    </form>
+{% endblock %}
