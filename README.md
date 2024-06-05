@@ -33,6 +33,7 @@ Resume generator - site for generation HTML resume. Just fill out the form with 
       <li><code>pip install sqlalchemy</code></li>
     </ol>
   </li>
+  <li>Create your database</li>
   <li>Run your flask project</li>
 </ol>
 
