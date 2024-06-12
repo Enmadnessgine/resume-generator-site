@@ -37,3 +37,11 @@ Resume generator - site for generation HTML resume. Just fill out the form with 
   <li>Run your flask project</li>
 </ol>
 
+<hr>
+
+<h2>Demonstration:</h2>
+
+![error](https://github.com/Enmadnessgine/resume-generator-site/blob/main/demoresgen2.jpg?raw=true)
+
+![error](https://github.com/Enmadnessgine/resume-generator-site/blob/main/demoresgen1.jpg?raw=true)
+
